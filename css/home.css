@@ -3,7 +3,6 @@
 }
 
 body {
-    width: 1440px;
     margin: 0 auto;
 }
 
@@ -81,9 +80,14 @@ body {
     opacity: 0.8
 }
 
+.content {
+    padding: 80px 0px;
+    width: 1200px;
+    margin: auto;
+}
+
 .news {
     height: 626px;
-    padding: 80px 122px;
 }
 
 .news .information {
@@ -164,8 +168,8 @@ body {
 }
 
 .project {
+    width: 100%;
     height: 530px;
-    padding: 80px 122px;
     background: #fafafc;
 }
 
@@ -222,7 +226,6 @@ body {
 
 .solution {
     height: 695px;
-    padding: 80px 122px;
 }
 
 .solution .title {
@@ -309,7 +312,7 @@ body {
 
 .science {
     height: 658px;
-    padding: 80px 122px;
+    /*padding: 80px 122px;*/
     background: #fafafc;
 }
 
@@ -333,6 +336,7 @@ body {
     height: 415px;
     float: left;
     margin-top: 40px;
+    background: #FFFFFF;
 }
 
 .science .info .desc {
@@ -364,7 +368,6 @@ body {
 
 .comment {
     height: 555px;
-    padding: 80px 122px;
 }
 
 .comment .title {
@@ -421,11 +424,11 @@ body {
 }
 
 .comment .list ul li .desc .text {
-    height: 30px;
+    height: 32px;
     color: #333333;
     font-size: 12px;
     font-family: MicrosoftYaHei;
-    margin-top: 15px;
+    margin-top: 12px;
     overflow: hidden;
 }
 
@@ -459,7 +462,6 @@ body {
 
 .resources {
     height: 572px;
-    padding: 80px 122px;
     background: #fafafc;
 }
 
@@ -515,7 +517,6 @@ body {
 
 .cooperation {
     height: 523px;
-    padding: 80px 122px;
 }
 
 .cooperation .title {

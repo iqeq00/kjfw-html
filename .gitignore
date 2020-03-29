@@ -1,0 +1,8 @@
+.idea
+.svn
+.mvn
+*.iws
+*.iml
+*.ipr
+
+.DS_Store

@@ -123,7 +123,7 @@ a:hover {
 
 .header {
     background: #fff;
-    /*position: fixed;*/
+    position: fixed;
     top: 0px;
     left: 0px;
     z-index: 300;
@@ -132,7 +132,9 @@ a:hover {
 }
 
 .header .content {
-    padding: 20px 120px;
+    padding: 20px 0px;
+    width: 1200px;
+    margin: auto;
 }
 
 .header .headerContent {
@@ -208,10 +210,15 @@ a:hover {
 
 .footer {
     background: #2A2A2C;
-    padding: 100px 122px 70px 122px;
     height: 332px;
     color: #8F8F8F;
     font-family: MicrosoftYaHei;
+}
+
+.footer .content {
+    padding: 100px 0px 70px 0px;
+    width: 1200px;
+    margin: auto;
 }
 
 .footer .copyLeft {
