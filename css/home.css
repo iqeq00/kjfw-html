@@ -62,7 +62,7 @@ body {
     width: 55px;
     height: 55px;
     position: relative;
-    margin: -15% 0 0 9%;
+    margin: -12% 0 0 8%;
     float: left;
     background: url(../img/banner/arrow1.png) 0 0 no-repeat;
     filter: alpha(opacity=40);
@@ -72,7 +72,7 @@ body {
 .fullSlide .next {
     background-position: right 0;
     float: right;
-    margin-right: 9%
+    margin-right: 8%
 }
 
 .fullSlide .prev:hover, .fullSlide .next:hover {
