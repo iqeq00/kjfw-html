@@ -1,0 +1,256 @@
+@charset "utf-8";
+body, dd, dl, form, p {
+    margin: 0
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+body, button, input, select, textarea, a {
+    font: 14px "Microsoft Yahei";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-size: 100%
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    border: 0px
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+input, button, select, textarea {
+    outline: none
+}
+
+input, textarea {
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.fl {
+    float: left;
+    display: inline;
+}
+
+.fr {
+    float: right;
+    display: inline;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+    height: 0px;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    content: ".";
+    font-size: 0
+}
+
+.posr {
+    position: relative
+}
+
+.posa {
+    position: absolute
+}
+
+.display_u {
+    display: inline-block
+}
+
+.overflow_t {
+    overflow: hidden;
+    text-indent: -999px
+}
+
+.of {
+    overflow: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+.stong {
+    font-weight: bold;
+}
+
+body { /* font:12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB"; *//* color:#333333; */
+}
+
+a {
+    color: #666666;
+}
+
+a:hover {
+    color: #1890ff;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+
+.header {
+    background: #fff;
+    /*position: fixed;*/
+    top: 0px;
+    left: 0px;
+    z-index: 300;
+    width: 100%;
+    height: 100px;
+}
+
+.header .content {
+    padding: 20px 120px;
+}
+
+.header .headerContent {
+    height: 100px;
+}
+
+.header .logo img {
+    width: 76px;
+    height: 60px;
+}
+
+.header .title {
+    width: 312px;
+    margin-left: 15px;
+    height: 60px;
+    color: #333333;
+}
+
+.header .title .btitle {
+    height: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header .title .stitle {
+    height: 12px;
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 12px;
+    display: inline-block;
+}
+
+.stitle .line {
+    width: 31px;
+    height: 2px;
+    background: rgba(51, 51, 51, 1);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stitle .stext {
+    display: inline-block;
+    width: 230px;
+}
+
+.header .menu {
+    margin-left: 34px;
+}
+
+.header .menu li {
+    float: left;
+    padding-top: 20px;
+    padding-left: 60px;
+    position: relative;
+}
+
+.header .menu a.menuA {
+    font-size: 16px;
+    color: #666666;
+    height: 30px;
+    display: block;
+    border-bottom: 4px solid #fff;
+    font-weight: bold;
+}
+
+.header .menu a.menuA.active {
+    border-bottom: 4px solid #2374fb;
+}
+
+
+.footer {
+    background: #2A2A2C;
+    padding: 100px 122px 70px 122px;
+    height: 332px;
+    color: #8F8F8F;
+    font-family: MicrosoftYaHei;
+}
+
+.footer .copyLeft {
+    width: 500px;
+    height: 70px;
+    font-size: 12px;
+    float: left;
+}
+
+.footer .copyLeft .newmedia {
+    margin-top: 38px;
+}
+
+.footer .copyLeft .newmedia img {
+    margin-right: 14px;
+    width: 43px;
+    height: 43px;
+}
+
+.footer .list {
+    width: 650px;
+    height: 180px;
+    font-size: 12px;
+    padding-left: 140px;
+    float: left;
+}
+
+.footer .list .title {
+    height: 16px;
+    font-size: 16px;
+}
+
+.footer .list ul {
+    margin-top: 26px;
+}
+
+.footer .list ul li {
+    padding-right: 30px;
+    padding-bottom: 5px;
+    float: left;
+    width: 255px;
+}
