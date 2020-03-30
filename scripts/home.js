@@ -6,29 +6,31 @@ function fontLength(title, num) {
     return val;
 }
 
-$(".fullSlide").slide({
-    titCell: ".hd ul",
-    mainCell: ".bd ul",
-    effect: "leftLoop",
-    vis: "auto",
-    autoPlay: true,
-    autoPage: true,
-    trigger: "click"
-});
+$(function () {
+    $(".fullSlide").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        effect: "leftLoop",
+        vis: "auto",
+        autoPlay: true,
+        autoPage: true,
+        trigger: "click"
+    });
 
-$(".noticeList a").each(function (index, element) {
-    var tit = fontLength($(this).html(), 25)
-    $(this).html(tit)
-});
+    $(".noticeList a").each(function (index, element) {
+        var tit = fontLength($(this).html(), 25)
+        $(this).html(tit)
+    });
 
-$(".noticeList li").hover(function () {
-    $(this).addClass("active");
-}, function () {
-    $(this).removeClass("active");
-});
+    $(".noticeList li").hover(function () {
+        $(this).addClass("active");
+    }, function () {
+        $(this).removeClass("active");
+    });
 
-$(".resources li").hover(function () {
-    $(this).addClass("active");
-}, function () {
-    $(this).removeClass("active");
+    $(".resources li").hover(function () {
+        $(this).addClass("active");
+    }, function () {
+        $(this).removeClass("active");
+    });
 });

@@ -127,7 +127,7 @@ a:hover {
 /*begin*/
 .header {
     background: #fff;
-    position: fixed;
+    /*position: fixed;*/
     top: 0px;
     left: 0px;
     z-index: 300;
@@ -252,7 +252,7 @@ a:hover {
     width: 8px;
     height: 8px;
     margin: 5px;
-    background: url(../img/banner/tg_flash_p.png) -18px 0;
+    background: url(../img/tg_flash_p.png) -18px 0;
     overflow: hidden;
     font-size: 0;
 }
@@ -269,7 +269,7 @@ a:hover {
     position: relative;
     margin: -12% 0 0 8%;
     float: left;
-    background: url(../img/banner/arrow1.png) 0 0 no-repeat;
+    background: url(../img/arrow1.png) 0 0 no-repeat;
     filter: alpha(opacity=40);
     opacity: 0.4;
 }
@@ -283,6 +283,12 @@ a:hover {
 .fullSlide .prev:hover, .fullSlide .next:hover {
     filter: alpha(opacity=80);
     opacity: 0.8
+}
+
+.content {
+    padding: 80px 0px;
+    width: 1200px;
+    margin: auto;
 }
 
 .footer {
