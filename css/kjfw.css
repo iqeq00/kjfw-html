@@ -1,0 +1,125 @@
+.science {
+    height: 625px;
+}
+
+.science .title {
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    height: 24px;
+    text-align: center;
+}
+
+.science .line {
+    border: 4px solid #297AFF;
+    margin-top: 19px;
+    width: 40px;
+    margin-left: 48%;
+}
+
+.science .list {
+    margin-top: 160px;
+}
+
+.science .list ul li {
+    float: left;
+    overflow: hidden;
+    margin-left: 18%;
+    height: 154px;
+    text-align: center;
+}
+
+.science .list ul li .bgblue {
+    width: 110px;
+    height: 110px;
+    line-height: 100px;
+    vertical-align: middle;
+    opacity: 0.98;
+    border-radius: 50%;
+    background: #1F7BEA;
+}
+
+.science .list ul li img {
+    width: 50px;
+    height: 50px;
+    border: solid 1px transparent;
+}
+
+.science .list ul li .title {
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 20px;
+    height: 20px;
+}
+
+
+.information {
+    height: 508px;
+}
+
+.information img {
+    float: left;
+}
+.information .info {
+    margin-left: 26px;
+    float: left;
+    width: 710px;
+}
+
+.information .title {
+    height: 25px;
+    line-height: 25px;
+}
+
+.information .title .text {
+    color: #333333;
+    font-size: 24px;
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    float: left;
+}
+
+.information .line {
+    border: 1px solid #D2D2D2;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.information .info .list {
+    width: 100%;
+    float: left;
+}
+
+.information .info .list ul {
+    margin-top: 15px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.information .info .list ul li {
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.information .info .list ul li a {
+    color: #666666;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.information .info .list ul li.active {
+    color: #1890ff;
+    background: #f2f1f1;
+}
+
+.information .info .list ul li.active a {
+    color: #1890ff;
+}
+
+.information .info .list ul li.active span {
+    color: #666666;
+}
