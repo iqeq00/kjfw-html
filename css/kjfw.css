@@ -1,5 +1,5 @@
 .science {
-    height: 625px;
+    height: 616px;
 }
 
 .science .title {
@@ -13,7 +13,7 @@
 
 .science .line {
     border: 4px solid #297AFF;
-    margin-top: 19px;
+    margin-top: 20px;
     width: 40px;
     margin-left: 48%;
 }
@@ -26,15 +26,14 @@
     float: left;
     overflow: hidden;
     margin-left: 18%;
-    height: 154px;
+    height: 144px;
     text-align: center;
 }
 
 .science .list ul li .bgblue {
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
     line-height: 100px;
-    vertical-align: middle;
     opacity: 0.98;
     border-radius: 50%;
     background: #1F7BEA;
@@ -53,11 +52,13 @@
     color: #333333;
     margin-top: 20px;
     height: 20px;
+    line-height: 20px;
 }
 
 
 .information {
     height: 508px;
+    background: #fafafc;
 }
 
 .information img {
@@ -125,7 +126,7 @@
 }
 
 .test {
-    height: 1160px;
+    height: 1136px;
 }
 
 .test .title {
@@ -140,7 +141,7 @@
 
 .test .line {
     border: 4px solid #297AFF;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 40px;
     margin-left: 48%;
     border-radius:2px;
@@ -168,7 +169,7 @@
     font-weight: bold;
     font-size: 16px;
     color: #333333;
-    margin-top: 27px;
+    margin-top: 20px;
     height: 16px;
     line-height: 16px;
     text-align: left;
@@ -202,7 +203,8 @@
 }
 
 .combine {
-    height: 893px;
+    height: 890px;
+    background: #fafafc;
 }
 
 .combine .title {
@@ -210,14 +212,14 @@
     font-weight: bold;
     font-size: 24px;
     color: #333333;
-    height: 25px;
-    line-height: 25px;
+    height: 24px;
+    line-height: 24px;
     text-align: center;
 }
 
 .combine .line {
     border: 4px solid #297AFF;
-    margin-top: 22px;
+    margin-top: 20px;
     width: 40px;
     margin-left: 48%;
     border-radius:2px;
