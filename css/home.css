@@ -221,7 +221,6 @@
     width: 380px;
 }
 
-
 .science {
     height: 658px;
     background: #fafafc;
@@ -370,7 +369,6 @@
     display: block;
 }
 
-
 .resources {
     height: 572px;
     background: #fafafc;
@@ -398,7 +396,6 @@
     height: 348px;
     float: left;
 }
-
 
 .resources .info ul li {
     height: 30px;

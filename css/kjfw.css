@@ -123,3 +123,196 @@
 .information .info .list ul li.active span {
     color: #666666;
 }
+
+.test {
+    height: 1160px;
+}
+
+.test .title {
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.test .line {
+    border: 4px solid #297AFF;
+    margin-top: 30px;
+    width: 40px;
+    margin-left: 48%;
+    border-radius:2px;
+}
+
+.test .list ul li {
+    float: left;
+    overflow: hidden;
+    margin-right: 28px;
+    margin-top: 40px;
+}
+
+.test .list ul li:nth-child(3n+3) {
+    margin-right: 0px;
+}
+
+.test .list ul li img {
+    width: 380px;
+    height: 284px;
+    border: solid 1px transparent;
+}
+
+.test .list ul li .title {
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 27px;
+    height: 16px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.test .list ul li .text {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 13px;
+    height: 35px;
+    width: 380px;
+}
+
+.test .more {
+    margin-top: 80px;
+    height: 32px;
+    text-align: center;
+}
+
+.test .more a {
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #D2D2D2;
+    border: 1px solid #D2D2D2;
+    padding: 6px 15px;
+    border-radius: 25px;
+}
+
+.combine {
+    height: 893px;
+}
+
+.combine .title {
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.combine .line {
+    border: 4px solid #297AFF;
+    margin-top: 22px;
+    width: 40px;
+    margin-left: 48%;
+    border-radius:2px;
+}
+
+.combine .list ul li {
+    float: left;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.combine .list ul li:nth-child(odd) {
+    margin-right: 130px;
+}
+
+.combine .list ul li:nth-child(even) {
+    margin-right: 0px;
+}
+
+.combine .list ul li img {
+    width: 200px;
+    height: 140px;
+    border: solid 1px transparent;
+}
+
+.combine .list ul li .desc {
+    padding-left: 20px;
+    float: left;
+    width: 314px;
+}
+
+.combine .list ul li .desc h2 a {
+    height: 12px;
+    line-height: 12px;
+    color: #333333;
+    font-size: 14px;
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.combine .list ul li .desc .text {
+    height: 32px;
+    color: #333333;
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.combine .list ul li .desc .finish {
+    height: 14px;
+    line-height: 14px;
+    color: #999999;
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.combine .list ul li .desc .year {
+    height: 14px;
+    line-height: 14px;
+    color: #999999;
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.combine .list ul li .desc .see {
+    height: 14px;
+    line-height: 14px;
+    color: #4C5CD3;
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    margin-top: 10px;
+    display: block;
+}
+
+.combine .more {
+    margin-top: 80px;
+    height: 32px;
+    text-align: center;
+}
+
+.combine .more a {
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #D2D2D2;
+    border: 1px solid #D2D2D2;
+    padding: 6px 15px;
+    border-radius: 25px;
+}
