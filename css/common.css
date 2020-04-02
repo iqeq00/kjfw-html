@@ -266,18 +266,17 @@ a:hover {
     display: block;
     width: 55px;
     height: 55px;
-    position: relative;
-    margin: -15% 0 0 8%;
-    float: left;
+    position: absolute;;
+    margin: -22.5px 0 0 0;
+    top:50%;
     background: url(../img/arrow1.png) 0 0 no-repeat;
     filter: alpha(opacity=40);
     opacity: 0.4;
 }
-
+.fullSlide .prev{left:8%;}
 .fullSlide .next {
     background-position: right 0;
-    float: right;
-    margin-right: 8%
+    right: 8%
 }
 
 .fullSlide .prev:hover, .fullSlide .next:hover {
