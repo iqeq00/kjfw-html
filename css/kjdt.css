@@ -1,0 +1,249 @@
+.pic ul li {
+    float: left;
+    margin-left: 11px;
+    position:relative;
+    height:177px;
+}
+
+.pic ul li:first-child {
+    margin-left: 0px;
+    height:364px;
+}
+
+.pic ul li:nth-child(4){
+    margin-top: 10px;
+}
+
+.pic ul li:nth-child(5){
+    margin-top: 10px;
+}
+
+.pic ul li:first-child div {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 35px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 24px;
+}
+
+.pic ul li div {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 35px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 10px;
+}
+
+.dynamic {
+    background: #fafafc;
+}
+
+.dynamic .title {
+    height: 25px;
+    line-height: 25px;
+}
+
+.dynamic .title .text {
+    color: #333333;
+    font-size: 24px;
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    float: left;
+}
+
+.dynamic .list {
+    float: left;
+    width: 716px;
+}
+
+.dynamic .list ul li {
+    width: 716px;
+}
+
+.dynamic .list ul li .date {
+    margin-top: 40px;
+    width: 40px;
+    height: 60px;
+    background: #D2D2D2;
+    float: left;
+    position: relative;
+    padding: 10px 6px;
+    box-sizing: border-box;
+}
+
+.dynamic .list ul li .date .month{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.dynamic .list ul li .date .day{
+    font-size: 12px;
+    text-align: right;
+    color: #717070;
+}
+
+.dynamic .list ul li .date .line{
+    width: 25px;
+    height: 1.5px;
+    background: #7f7d7d;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    position: absolute;
+}
+
+.dynamic .list ul li .info {
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+    width: 656px;
+}
+
+.dynamic .list ul li .info .ti {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.dynamic .list ul li .info .text {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.dynamic .list ul li .info .time {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.dynamic .desc {
+    width: 360px;
+    float: left;
+    margin-left: 122px;
+    margin-top: 40px;
+}
+
+.dynamic .desc .adv {
+    position:relative;
+    margin-bottom: 12px;
+}
+
+.dynamic .desc .adv img {
+    width: 357px;
+    height: 146px;
+}
+
+.dynamic .desc .adv div {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 0px 0px 12px 12px;
+}
+
+.dynamic .desc .hot {
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.dynamic .desc ul {
+    margin-top: 20px;
+    height: 220px;
+}
+
+.dynamic .desc ul li {
+    color: #666666;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    margin-top: 6px;
+}
+
+.recommend .title {
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.recommend .line {
+    border: 4px solid #297AFF;
+    margin-top: 20px;
+    width: 40px;
+    margin-left: 48%;
+    border-radius:2px;
+}
+
+.recommend .list ul li {
+    float: left;
+    overflow: hidden;
+    margin-right: 28px;
+    margin-top: 40px;
+}
+
+.recommend .list ul li:nth-child(3n+3) {
+    margin-right: 0px;
+}
+
+.recommend .list ul li img {
+    width: 380px;
+    height: 284px;
+    border: solid 1px transparent;
+}
+
+.recommend .list ul li .title {
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 20px;
+    height: 16px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.recommend .list ul li .text {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 13px;
+    height: 35px;
+    width: 380px;
+}
+
+.recommend .list ul li .time {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    color: #999999;
+    margin-top: 13px;
+    width: 380px;
+}
