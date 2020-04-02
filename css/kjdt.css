@@ -119,6 +119,9 @@
     font-size: 14px;
     font-weight: bold;
     color: #333333;
+    width: 656px;
+    height: 20px;
+    overflow: hidden;
 }
 
 .dynamic .list ul li .info .text {
@@ -126,6 +129,9 @@
     font-size: 14px;
     color: #666666;
     margin-top: 20px;
+    width: 656px;
+    height: 60px;
+    overflow: hidden;
 }
 
 .dynamic .list ul li .info .time {
@@ -183,6 +189,9 @@
     font-size: 14px;
     font-family: MicrosoftYaHei;
     margin-top: 6px;
+    width: 350px;
+    height: 20px;
+    overflow: hidden;
 }
 
 .recommend .title {
@@ -229,6 +238,8 @@
     height: 16px;
     line-height: 16px;
     text-align: left;
+    overflow: hidden;
+    width: 380px;
 }
 
 .recommend .list ul li .text {
@@ -238,6 +249,7 @@
     margin-top: 13px;
     height: 35px;
     width: 380px;
+    overflow: hidden;
 }
 
 .recommend .list ul li .time {
@@ -246,4 +258,5 @@
     color: #999999;
     margin-top: 13px;
     width: 380px;
+    overflow: hidden;
 }
