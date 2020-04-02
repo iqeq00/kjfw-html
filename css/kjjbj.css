@@ -1,0 +1,27 @@
+.prize {
+    padding: 100px 0px;
+    width: 1100px;
+    margin: auto;
+}
+
+.prize .text {
+    margin-top: 30px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    color: #333333;
+    text-indent: 2em;
+}
+
+.prize .certificate {
+    margin-top: 70px;
+}
+
+.prize .title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+}
