@@ -1,0 +1,91 @@
+.left {
+    width: 725px;
+}
+
+.left .title {
+    color: #666666;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+}
+
+.left .bigTitle {
+    margin-top: 40px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #333333;
+    overflow: hidden;
+}
+
+.left .smallTitle {
+    margin-top: 20px;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    color: #999999;
+}
+
+.left .smallTitle .time {
+    margin-left: 30px;
+}
+
+.left .text {
+    margin-top: 30px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #666666;
+    text-indent: 2em;
+}
+
+.left .mainPic {
+    margin-top: 30px;
+}
+
+.right {
+    width: 395px;
+    margin-left: 80px;
+}
+
+.right .title {
+    color: #666666;
+    font-size: 16px;
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+}
+
+.right .list {
+    margin-top: 40px;
+}
+
+.right .list ul li {
+    float: left;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.right .list ul li img {
+    width: 127px;
+    height: 95px;
+}
+
+.right .list ul li .desc {
+    padding-left: 16px;
+    float: left;
+    width: 220px;
+}
+
+.right .list ul li .desc h2 a {
+    height: 40px;
+    color: #333333;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.right .list ul li .desc span {
+    color: #999999;
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    margin-top: 35px;
+    display: inline-block;
+}
