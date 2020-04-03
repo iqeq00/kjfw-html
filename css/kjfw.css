@@ -113,7 +113,7 @@
 
 .information .info .list ul li.active {
     color: #1890ff;
-    background: #f2f1f1;
+    /*background: #f2f1f1;*/
 }
 
 .information .info .list ul li.active a {

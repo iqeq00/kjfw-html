@@ -1,5 +1,5 @@
 .xmlb {
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .left {
@@ -38,6 +38,7 @@
     color: #333333;
     font-size: 16px;
     font-family: MicrosoftYaHei;
+    font-weight: bold;
     overflow: hidden;
     display: inline-block;
 }
@@ -118,6 +119,7 @@
     color: #333333;
     font-size: 16px;
     font-family: MicrosoftYaHei;
+    font-weight: bold;
     overflow: hidden;
     display: inline-block;
 }

@@ -124,6 +124,16 @@
     overflow: hidden;
 }
 
+.dynamic .list ul li .info .active {
+    color: #1890ff;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 656px;
+    height: 60px;
+    overflow: hidden;
+}
+
 .dynamic .list ul li .info .text {
     font-family: MicrosoftYaHei;
     font-size: 14px;
